@@ -1,5 +1,7 @@
+@import "icons/icomoon/styles.css";
+
 body {
-    font-family: Century Tahoma Calibri;
+    font-family: Arial;
     padding: 0;
     margin: 0;
 }
@@ -32,4 +34,62 @@ p::first-letter {
     font-size: 20px;
     font-weight: bolder;
     font-style: italic;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.login-form form {
+    border: 1px solid chartreuse;
+    padding: 20px 0;
+    width: 300px;
+    margin: 0 auto;
+    /*background-image: url("../img/bg/3.jpg");*/
+}
+
+.login-form form .login-icon {
+    font-size: 48px;
+    border: 1px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    padding: 10px;
+}
+
+.login-form form h3 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.login-form form .control {
+    margin: 0 20px 10px;
+}
+
+.login-form form label {
+    display: block;
+}
+
+.login-form form input, textarea {
+    border: none;
+    border-bottom: 1px solid chartreuse;
+    outline: none;
+    padding: 4px 0px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.login-form form input:focus {
+    border-color: forestgreen;
+}
+
+.login-form form button {
+    width: 100%;
+    background-color: chartreuse;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px;
 }
